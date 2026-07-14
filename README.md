@@ -1,5 +1,5 @@
 # Retinal-Research
-# 👁️ MFFNet: Dual-Domain Spatial-Frequency Retinal OCT Classification & SSL Engine
+#  MFFNet: Dual-Domain Spatial-Frequency Retinal OCT Classification & SSL Engine
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://tensorflow.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
@@ -12,7 +12,7 @@ An advanced, multi-modality deep learning framework implementing a **Dual-Domain
 
 ---
 
-## 🌟 Key Research & Architectural Innovations
+##  Key Research & Architectural Innovations
 
 ### 1. Dual-Domain Wavelet Signal Processing (Haar DWT / IDWT)
 Standard CNNs operate solely in the spatial domain, often confounding high-frequency retinal speckle noise with critical structural boundaries. MFFNet integrates a custom **Haar Discrete Wavelet Transform (DWT)** layer that decomposes 2D feature maps into four distinct frequency sub-bands:
@@ -36,7 +36,7 @@ Implements an unsupervised projection head utilizing **Normalized Temperature-sc
 
 ---
 
-## 📈 System Architecture & Data Flow
+##  System Architecture & Data Flow
 
 ```text
        [Input Retinal OCT B-Scans (224 × 224 × 3)]
@@ -81,7 +81,7 @@ Implements an unsupervised projection head utilizing **Normalized Temperature-sc
 
 ---
 
-## 📊 Performance Benchmark & Latent Alignment
+##  Performance Benchmark & Latent Alignment
 
 The model's unsupervised representations are evaluated against clinical ground truth across three pathology classes—**Normal**, **Drusen** (Early AMD biomarker), and **CNV** (Choroidal Neovascularization / Wet AMD)—using $k$-Means clustering ($k=3$) and majority-vote mapping:
 
@@ -94,7 +94,7 @@ The model's unsupervised representations are evaluated against clinical ground t
 
 ---
 
-## 🛠️ Tech Stack & Library Dependencies
+##  Tech Stack & Library Dependencies
 
 * **Deep Learning Frameworks:** TensorFlow 2.x / Keras (MFFNet, SFWAF, FEF, Custom Gradients), PyTorch (SSL-AnoVAE, ConvAutoencoders)
 * **Signal Processing:** Custom Discrete Wavelet Transforms (`dwt_haar`, `idwt_haar`), OpenCV, PIL
@@ -103,7 +103,7 @@ The model's unsupervised representations are evaluated against clinical ground t
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 Clone the repository and install the runtime environment:
