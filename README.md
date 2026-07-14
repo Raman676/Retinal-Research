@@ -8,7 +8,7 @@
 
 An advanced, multi-modality deep learning framework implementing a **Dual-Domain Multi-Feature Fusion Network (MFFNet)** and self-supervised contrastive representation learning (SimCLR / SSL-AnoVAE) for automated ophthalmic disease diagnosis across **16,822 Retinal Optical Coherence Tomography (OCT)** scans.
 
-> 📓 **Core Research Notebook:** The unified training, frequency decomposition, and unsupervised clustering pipeline is documented in [`retinal-research-model-final.ipynb`](./retinal-research-model-final.ipynb).
+> 📓 **Core Research Notebook:** The unified training, frequency decomposition, and unsupervised clustering pipeline is documented in [`retinal-research-model-final.ipynb`](https://www.kaggle.com/code/dubeyraman/retinal-research-model-final).
 
 ---
 
